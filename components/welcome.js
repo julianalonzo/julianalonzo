@@ -2,23 +2,27 @@ import React from 'react';
 
 export default function welcome() {
   return (
-    <>
-      <div className="bg-green-200 p-1 text-center">
-        <div className="mt-8">
-          <h1 className="text-2xl text-green-800">I'm Julian Aubrey Alonzo</h1>
-          <h2 className="text-green-700">a web developer</h2>
-        </div>
-        <div className="mt-4">
-          <img src="../static/web_developer.png" className="h-32 m-auto" />
-        </div>
+    <div
+      className="h-screen-50 bg-cover bg-bottom relative"
+      style={{ backgroundImage: `url("/static/flat-mountains.svg")` }}
+    >
+      <div className="text-center pt-12 px-4">
+        <h1 className="text-4xl font-extrabold text-green-900 font-serif">
+          I'm Julian Aubrey
+        </h1>
+        <p className="text-lg text-yellow-900 font-sans">a web developer</p>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 260"
+        className="absolute bottom-0"
+      >
         <path
-          fill="#c6f6d5"
+          fill="#ffffff"
           fillOpacity="1"
-          d="M0,160L26.7,170.7C53.3,181,107,203,160,186.7C213.3,171,267,117,320,112C373.3,107,427,149,480,181.3C533.3,213,587,235,640,250.7C693.3,267,747,277,800,256C853.3,235,907,181,960,170.7C1013.3,160,1067,192,1120,181.3C1173.3,171,1227,117,1280,90.7C1333.3,64,1387,64,1413,64L1440,64L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"
-        />
+          d="M0,256L21.8,250.7C43.6,245,87,235,131,240C174.5,245,218,267,262,256C305.5,245,349,203,393,181.3C436.4,160,480,160,524,144C567.3,128,611,96,655,90.7C698.2,85,742,107,785,122.7C829.1,139,873,149,916,149.3C960,149,1004,139,1047,149.3C1090.9,160,1135,192,1178,192C1221.8,192,1265,160,1309,133.3C1352.7,107,1396,85,1418,74.7L1440,64L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
+        ></path>
       </svg>
-    </>
+    </div>
   );
 }

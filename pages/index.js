@@ -16,6 +16,10 @@ export default function index() {
           type="image/x-icon"
           href="/static/favicon.ico"
         />
+        <link
+          href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:400,900&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Welcome />
     </div>
