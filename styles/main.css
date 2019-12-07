@@ -1,5 +1,39 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
+
+.h-screen-50 {
+  height: 50vh;
+}
+
+.h-screen-25 {
+  height: 25vh;
+}
+
+.h-screen-75 {
+  height: 75vh;
+}
+
+.min-h-screen-50 {
+  height: 50vh;
+}
+
+.min-h-screen-25 {
+  height: 25vh;
+}
+
+.min-h-screen-75 {
+  height: 75vh;
+}
+
+.max-h-screen-50 {
+  height: 50vh;
+}
+
+.max-h-screen-25 {
+  height: 25vh;
+}
+
+.max-h-screen-75 {
+  height: 75vh;
+}

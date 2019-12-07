@@ -3,6 +3,7 @@ import React from 'react';
 import '../styles/main.css';
 
 import Head from 'next/head';
+import Welcome from '../components/welcome';
 
 export default function index() {
   return (
@@ -15,8 +16,8 @@ export default function index() {
           type="image/x-icon"
           href="/static/favicon.ico"
         />
-        .
       </Head>
+      <Welcome />
     </div>
   );
 }
