@@ -17,7 +17,7 @@ export default function index() {
           href="/static/favicon.ico"
         />
         <link
-          href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:400,900&display=swap"
+          href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Playfair+Display:400,700,900&display=swap"
           rel="stylesheet"
         />
       </Head>

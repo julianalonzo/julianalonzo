@@ -3,14 +3,19 @@ import React from 'react';
 export default function welcome() {
   return (
     <div
-      className="h-screen-50 bg-cover bg-bottom relative"
+      className="h-screen-50 bg-cover bg-bottom relative md:h-screen"
       style={{ backgroundImage: `url("/static/flat-mountains.svg")` }}
     >
-      <div className="text-center pt-12 px-4">
-        <h1 className="text-4xl font-extrabold text-green-900 font-serif">
+      <div className="text-center pt-12 px-4 md:text-left md:px-12 md:pt-24">
+        <h1 className="text-4xl font-extrabold text-green-900 font-serif md:text-6xl">
           I'm Julian Aubrey
         </h1>
-        <p className="text-lg text-yellow-900 font-sans">a web developer</p>
+        <p className="text-lg text-yellow-900 font-sans md:text-3xl md:-mt-2 md:font-light">
+          a web developer
+        </p>
+        <button className="hidden mt-4 p-2 px-4 bg-green-600 text-yellow-200 outline-none hover:bg-green-700 focus:shadow-outline lg:inline lg:text-lg rounded">
+          View Projects
+        </button>
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"

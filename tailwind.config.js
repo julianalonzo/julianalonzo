@@ -3,7 +3,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          '"Open Sans"',
+          'Lato',
           '-apple-system',
           'BlinkMacSystemFont',
           '"Segoe UI"',
