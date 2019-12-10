@@ -15,25 +15,25 @@
 }
 
 .min-h-screen-50 {
-  height: 50vh;
+  min-height: 50vh;
 }
 
 .min-h-screen-25 {
-  height: 25vh;
+  min-height: 25vh;
 }
 
 .min-h-screen-75 {
-  height: 75vh;
+  min-height: 75vh;
 }
 
 .max-h-screen-50 {
-  height: 50vh;
+  max-height: 50vh;
 }
 
 .max-h-screen-25 {
-  height: 25vh;
+  max-height: 25vh;
 }
 
 .max-h-screen-75 {
-  height: 75vh;
+  max-height: 75vh;
 }

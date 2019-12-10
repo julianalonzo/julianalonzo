@@ -3,9 +3,10 @@ import React from 'react';
 import '../styles/main.css';
 
 import Head from 'next/head';
-import Welcome from '../components/welcome';
+import Welcome from '../components/Welcome';
+import Projects from '../components/Projects';
 
-export default function index() {
+export default function Index() {
   return (
     <div>
       <Head>
@@ -22,6 +23,7 @@ export default function index() {
         />
       </Head>
       <Welcome />
+      <Projects />
     </div>
   );
 }
