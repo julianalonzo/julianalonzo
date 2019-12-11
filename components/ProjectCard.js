@@ -3,7 +3,7 @@ import React from 'react';
 export default function ProjectCard({ title, description }) {
   return (
     <div className="w-3/4 m-4 sm:w-1/3 lg:w-1/4 lg:m-6">
-      <div className="p-6 shadow rounded-lg bg-white text-center">
+      <div className="p-6 pb-8 shadow rounded-lg bg-white text-center">
         <img className="w-12 m-auto" src="../static/kaagapai-logo.svg" />
         <div className="mt-2">
           <h6 className="font-sans font-medium font-bold">{title}</h6>
@@ -11,7 +11,7 @@ export default function ProjectCard({ title, description }) {
         </div>
       </div>
       <div className="text-center -mt-5">
-        <button className="py-2 px-4 bg-yellow-400 font-sans text-sm text-yellow-900 rounded-full outline-none focus:outline-none focus:shadow-outline shadow-md hover:shadow-lg hover:bg-yellow-500">
+        <button className="py-2 px-4 bg-yellow-400 font-sans text-xs tracking-widest text-yellow-900 rounded-full outline-none focus:outline-none focus:shadow-outline shadow-md hover:shadow-lg hover:bg-yellow-500 uppercase">
           Learn more
         </button>
       </div>
