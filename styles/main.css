@@ -2,38 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.h-screen-50 {
-  height: 50vh;
-}
-
-.h-screen-25 {
-  height: 25vh;
-}
-
-.h-screen-75 {
-  height: 75vh;
-}
-
-.min-h-screen-50 {
-  min-height: 50vh;
-}
-
-.min-h-screen-25 {
-  min-height: 25vh;
-}
-
-.min-h-screen-75 {
-  min-height: 75vh;
-}
-
-.max-h-screen-50 {
-  max-height: 50vh;
-}
-
-.max-h-screen-25 {
-  max-height: 25vh;
-}
-
-.max-h-screen-75 {
-  max-height: 75vh;
+body {
+  @apply bg-gray-100;
 }

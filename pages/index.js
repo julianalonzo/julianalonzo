@@ -1,12 +1,10 @@
-import React from 'react';
-
 import '../styles/main.css';
 
 import Head from 'next/head';
 import Welcome from '../components/Welcome';
 import Projects from '../components/Projects';
 
-export default function Index() {
+export default function Home() {
   return (
     <div>
       <Head>

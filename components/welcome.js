@@ -1,9 +1,7 @@
-import React from 'react';
-
 export default function Welcome() {
   return (
     <div
-      className="h-screen-75 bg-cover bg-bottom relative pb-4 md:h-screen md:bg-fixed"
+      className="h-screen-3/4 bg-cover bg-bottom relative pb-4 md:h-screen md:bg-fixed"
       style={{ backgroundImage: `url("/static/flat-mountains.svg")` }}
     >
       <div className="container mx-auto">
