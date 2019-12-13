@@ -12,7 +12,7 @@ export default function ProjectCard({ title, description }) {
       </div>
       <div className="text-center -mt-5">
         <Link href="/projects/[id]" as={`/projects/${title}`}>
-          <button className="py-2 px-4 bg-yellow-400 font-sans text-xs tracking-widest text-yellow-900 rounded-full outline-none focus:outline-none focus:shadow-outline shadow-md hover:shadow-lg hover:bg-yellow-500 uppercase">
+          <button className="py-2 px-4 bg-yellow-400 font-sans text-xs tracking-widest text-yellow-900 rounded-full outline-none focus:outline-none focus:outline-yellow-200 shadow-md hover:shadow-lg hover:bg-yellow-500 uppercase">
             Learn More
           </button>
         </Link>
