@@ -1,0 +1,60 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 640">
+  <defs>
+    <path d="M219.13 241.76L118.26 443.5L320 443.5L521.74 443.5L420.88 241.76L320 40.02L219.13 241.76Z" id="d1sPmWyd4D"></path>
+    <path d="M320 40.02L521.74 443.5L320 443.5L320 40.02Z" id="a1C5LgxIiT"></path>
+    <path d="M507.62 407.07C520.26 407.07 530.52 417.32 530.52 429.97C530.52 436.43 530.52 432.91 530.52 439.37C530.52 452.02 520.26 462.27 507.62 462.27C427.99 462.27 212.01 462.27 132.38 462.27C119.74 462.27 109.48 452.02 109.48 439.37C109.48 432.91 109.48 436.43 109.48 429.97C109.48 417.32 119.74 407.07 132.38 407.07C212.01 407.07 427.99 407.07 507.62 407.07Z" id="bQyp4WzJc"></path>
+    <path d="M360.02 40.02C360.02 62.1 342.09 80.03 320 80.03C297.91 80.03 279.98 62.1 279.98 40.02C279.98 17.93 297.91 0 320 0C342.09 0 360.02 17.93 360.02 40.02Z" id="hmoP4kqRF"></path>
+    <path d="M296.54 407.07C309.5 407.07 320 417.57 320 430.53C320 436.88 320 432.46 320 438.81C320 451.77 309.5 462.27 296.54 462.27C259.13 462.27 170.36 462.27 132.94 462.27C119.99 462.27 109.48 451.77 109.48 438.81C109.48 432.46 109.48 436.88 109.48 430.53C109.48 417.57 119.99 407.07 132.94 407.07C170.36 407.07 259.13 407.07 296.54 407.07Z" id="a2TKWXEuer"></path>
+    <path d="M267.61 407.07L320 407.07L320 462.27L267.61 462.27L267.61 407.07Z" id="c3srQB4f1"></path>
+    <path d="M262.79 467.81C278.04 467.81 290.4 480.17 290.4 495.42C290.4 512.75 290.4 537.13 290.4 554.46C290.4 569.71 278.04 582.07 262.79 582.07C232.13 582.07 167.76 582.07 137.1 582.07C121.85 582.07 109.48 569.71 109.48 554.46C109.48 537.13 109.48 512.75 109.48 495.42C109.48 480.17 121.85 467.81 137.1 467.81C167.76 467.81 232.13 467.81 262.79 467.81Z" id="e1ajz8HYAe"></path>
+    <path d="M502.9 467.81C518.15 467.81 530.52 480.17 530.52 495.42C530.52 512.75 530.52 537.13 530.52 554.46C530.52 569.71 518.15 582.07 502.9 582.07C472.24 582.07 407.87 582.07 377.21 582.07C361.96 582.07 349.6 569.71 349.6 554.46C349.6 537.13 349.6 512.75 349.6 495.42C349.6 480.17 361.96 467.81 377.21 467.81C407.87 467.81 472.24 467.81 502.9 467.81Z" id="b2gM7KsbB"></path>
+    <path d="M290.4 494.15L349.64 494.15L349.64 521.73L290.4 521.73L290.4 494.15Z" id="d5FOYpm1K"></path>
+  </defs>
+  <g>
+    <g>
+      <g>
+        <g>
+          <use xlink:href="#d1sPmWyd4D" opacity="1" fill="#57d9ad" fill-opacity="1"></use>
+          <g>
+            <use xlink:href="#d1sPmWyd4D" opacity="1" fill-opacity="0" stroke="#082d4e" stroke-width="0" stroke-opacity="1"></use>
+          </g>
+        </g>
+        <g>
+          <use xlink:href="#a1C5LgxIiT" opacity="1" fill="#26bfa6" fill-opacity="1"></use>
+          <g>
+            <use xlink:href="#a1C5LgxIiT" opacity="1" fill-opacity="0" stroke="#8cecb3" stroke-width="0" stroke-opacity="1"></use>
+          </g>
+        </g>
+        <g>
+          <use xlink:href="#bQyp4WzJc" opacity="1" fill="#f03800" fill-opacity="1"></use>
+        </g>
+        <g>
+          <use xlink:href="#hmoP4kqRF" opacity="1" fill="#fdbf00" fill-opacity="1"></use>
+        </g>
+        <g>
+          <g>
+            <use xlink:href="#a2TKWXEuer" opacity="1" fill="#ff641a" fill-opacity="1"></use>
+          </g>
+          <g>
+            <use xlink:href="#c3srQB4f1" opacity="1" fill="#ff641a" fill-opacity="1"></use>
+          </g>
+        </g>
+      </g>
+      <g>
+        <use xlink:href="#e1ajz8HYAe" opacity="1" fill="#b1e9e6" fill-opacity="1"></use>
+        <g>
+          <use xlink:href="#e1ajz8HYAe" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="25" stroke-opacity="1"></use>
+        </g>
+      </g>
+      <g>
+        <use xlink:href="#b2gM7KsbB" opacity="1" fill="#b1e9e6" fill-opacity="1"></use>
+        <g>
+          <use xlink:href="#b2gM7KsbB" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="25" stroke-opacity="1"></use>
+        </g>
+      </g>
+      <g>
+        <use xlink:href="#d5FOYpm1K" opacity="1" fill="#000000" fill-opacity="1"></use>
+      </g>
+    </g>
+  </g>
+</svg>

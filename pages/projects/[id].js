@@ -13,11 +13,6 @@ export default function Project() {
         <title>{`Julian Alonzo | kaagapAI`}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
-          rel="shortcut icon"
-          type="image/x-icon"
-          href="/static/favicon.ico"
-        />
-        <link
           href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Playfair+Display:400,700,900&display=swap"
           rel="stylesheet"
         />
