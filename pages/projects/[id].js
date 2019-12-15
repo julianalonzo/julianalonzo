@@ -2,6 +2,7 @@ import '../../styles/main.css';
 
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import Navbar from '../../components/Navbar';
 
 export default function Project() {
   const router = useRouter();
@@ -17,6 +18,7 @@ export default function Project() {
           rel="stylesheet"
         />
       </Head>
+      <Navbar />
       <div
         className="h-screen-1/4 bg-yellow-200 bg-cover bg-center md:h-screen-1/2 md:bg-fixed relative"
         style={{

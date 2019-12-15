@@ -5,7 +5,7 @@ export default function Welcome() {
       style={{ backgroundImage: `url("/static/flat-mountains.svg")` }}
     >
       <div className="container mx-auto">
-        <div className="text-center pt-12 px-4 md:text-left md:px-12 md:pt-24">
+        <div className="text-center pt-24 px-4 md:text-left md:px-12">
           <h1 className="text-4xl font-extrabold text-green-900 font-serif md:text-6xl">
             I'm Julian Aubrey
           </h1>

@@ -3,6 +3,7 @@ import '../styles/main.css';
 import Head from 'next/head';
 import Welcome from '../components/Welcome';
 import Projects from '../components/Projects';
+import Navbar from '../components/Navbar';
 
 export default function Home() {
   return (
@@ -91,6 +92,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
+      <Navbar />
       <Welcome />
       <Projects />
     </div>
