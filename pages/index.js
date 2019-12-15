@@ -1,9 +1,9 @@
 import '../styles/main.css';
 
 import Head from 'next/head';
-import Welcome from '../components/Welcome';
-import Projects from '../components/Projects';
-import Navbar from '../components/Navbar';
+import Welcome from '../components/Welcome.js';
+import Projects from '../components/Projects.js';
+import Navbar from '../components/Navbar.js';
 
 export default function Home() {
   return (

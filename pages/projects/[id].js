@@ -2,7 +2,7 @@ import '../../styles/main.css';
 
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import Navbar from '../../components/Navbar';
+import Navbar from '../../components/Navbar.js';
 
 export default function Project() {
   const router = useRouter();
