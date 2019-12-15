@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Navbar() {
   return (
     <nav className="w-full py-2 fixed frosted-glass z-50">

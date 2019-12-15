@@ -1,8 +1,10 @@
+import React from 'react';
+
 import '../../styles/main.css';
 
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import Navbar from '../../components/Navbar.js';
+import Navbar from '../../components/Navbar';
 
 export default function Project() {
   const router = useRouter();

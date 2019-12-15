@@ -1,10 +1,12 @@
+import React from 'react';
+
 import Link from 'next/link';
 
 export default function ProjectCard({ title, description }) {
   return (
     <div className="w-3/4 m-4 sm:w-1/3 lg:w-1/4 lg:m-6">
       <div className="p-6 pb-8 shadow rounded-lg bg-white text-center">
-        <img className="w-12 m-auto" src="../static/kaagapai-logo.svg" />
+        <img className="w-12 m-auto" src="/static/kaagapai-logo.svg" />
         <div className="mt-2">
           <h6 className="font-sans font-medium font-bold">{title}</h6>
           <p className="font-sans text-sm text-gray-500 mb-2">{description}</p>
