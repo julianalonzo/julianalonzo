@@ -3,6 +3,7 @@ import React from 'react';
 import '../styles/main.css';
 
 import Head from 'next/head';
+
 import Welcome from '../components/Welcome';
 import Projects from '../components/Projects';
 import Navbar from '../components/Navbar';
