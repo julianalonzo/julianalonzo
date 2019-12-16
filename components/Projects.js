@@ -3,16 +3,16 @@ import ProjectCard from './ProjectCard';
 export default function Projects() {
   const projects = [
     {
+      id: 'kaagapAI',
       title: 'kaagapAI',
-      description: 'An automated psychotherapy text analysis tool'
+      description: 'An automated psychotherapy text analysis tool',
+      logoPath: '/static/kaagapai-logo.svg'
     },
     {
-      title: 'kaagapAI',
-      description: 'An automated psychotherapy text analysis tool'
-    },
-    {
-      title: 'kaagapAI',
-      description: 'An automated psychotherapy text analysis tool'
+      id: 'eis',
+      title: 'Equipment Inventory System (EIS)',
+      description: 'An inventory system for IT equipment',
+      logoPath: '/static/eis-logo.svg'
     }
   ];
 
@@ -25,12 +25,10 @@ export default function Projects() {
             Projects
           </h2>
         </div>
-        <div>
-          <div className="p-2 flex flex-wrap justify-center">
-            {projects.map((project, index) => (
-              <ProjectCard key={index} {...project} />
-            ))}
-          </div>
+        <div className="flex flex-wrap justify-center">
+          {projects.map(project => (
+            <ProjectCard key={project.id} {...project} />
+          ))}
         </div>
       </div>
     </div>
