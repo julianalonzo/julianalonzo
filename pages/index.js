@@ -8,7 +8,7 @@ import Welcome from '../components/Welcome';
 import Projects from '../components/Projects';
 import Navbar from '../components/Navbar';
 
-export default function Home() {
+export default function Index() {
   return (
     <div>
       <Head>
