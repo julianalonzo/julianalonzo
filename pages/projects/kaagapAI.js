@@ -1,14 +1,9 @@
 import '../../styles/main.css';
 
-import { useRouter } from 'next/router';
-
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 
 export default function Project() {
-  const router = useRouter();
-  const { id } = router.query;
-
   return (
     <div className="bg-gray-100">
       <Header />
@@ -16,7 +11,7 @@ export default function Project() {
       <div
         className="h-screen-1/4 bg-yellow-200 bg-cover bg-center md:h-screen-1/2 md:bg-fixed relative"
         style={{
-          backgroundImage: `url("../static/kaagapai-bg.svg")`
+          backgroundImage: `url("/static/kaagapai-bg.svg")`
         }}
       >
         <svg
