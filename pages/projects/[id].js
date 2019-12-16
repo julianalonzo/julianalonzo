@@ -1,7 +1,8 @@
 import '../../styles/main.css';
 
-import Head from 'next/head';
 import { useRouter } from 'next/router';
+
+import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 
 export default function Project() {
@@ -10,14 +11,7 @@ export default function Project() {
 
   return (
     <div className="bg-gray-100">
-      <Head>
-        <title>{`Julian Alonzo | kaagapAI`}</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link
-          href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Playfair+Display:400,700,900&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
+      <Header />
       <Navbar />
       <div
         className="h-screen-1/4 bg-yellow-200 bg-cover bg-center md:h-screen-1/2 md:bg-fixed relative"
