@@ -1,8 +1,12 @@
-export default function ProjectCover({ coverPhotoPath, mainProjectImagePath }) {
+export default function ProjectCover({
+  mainColor,
+  coverPhotoPath,
+  mainProjectImagePath
+}) {
   return (
     <section>
       <div
-        className="h-screen-1/4 bg-yellow-200 bg-cover bg-center md:h-screen-1/2 md:bg-fixed relative"
+        className={`h-screen-1/4 bg-${mainColor}-200 bg-cover bg-center md:h-screen-1/2 md:bg-fixed relative`}
         style={{
           backgroundImage: `url("${coverPhotoPath}")`
         }}
