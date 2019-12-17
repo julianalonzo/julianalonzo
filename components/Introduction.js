@@ -12,7 +12,7 @@ export default function Welcome() {
           <p className="text-lg text-yellow-900 font-sans md:text-3xl md:-mt-2 md:font-light">
             a web developer
           </p>
-          <button className="mt-4 py-2 px-4 bg-green-600 font-sans text-yellow-200 uppercase text-sm tracking-widest rounded-full outline-none hover:bg-green-700 focus:outline-none focus:outline-green-500 md:inline">
+          <button className="mt-4 py-2 px-4 bg-green-400 font-sans text-green-900 uppercase text-sm tracking-widest rounded-full outline-none shadow-md hover:shadow-lg hover:bg-green-500 focus:outline-none focus:outline-green-500 md:inline">
             View Projects
           </button>
         </div>
