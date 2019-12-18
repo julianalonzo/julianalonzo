@@ -76,7 +76,7 @@ export default function EIS() {
               the <i>Properties</i> section.
             </p>
             <img
-              className="border border-gray-300 rounded-lg mb-8"
+              className="shadow-md rounded-lg mb-8"
               src="/static/eis/itemManagement.gif"
               alt="Item Management Demo"
             />
@@ -107,7 +107,7 @@ export default function EIS() {
               a different folder organization is adopted.
             </p>
             <img
-              className="border border-gray-300 rounded-lg"
+              className="shadow-md rounded-lg"
               src="/static/eis/folderOrganization.gif"
               alt="Folder Organization Demo"
             />
@@ -121,7 +121,7 @@ export default function EIS() {
               new items into different folders.
             </p>
             <img
-              className="border border-gray-300 rounded-lg"
+              className="shadow-md rounded-lg"
               src="/static/eis/templates.gif"
               alt="Templates Demo"
             />
@@ -133,7 +133,7 @@ export default function EIS() {
               condition, properties, and notes.
             </p>
             <img
-              className="border border-gray-300 rounded-lg mb-8"
+              className="shadow-md rounded-lg mb-8"
               src="/static/eis/search.gif"
               alt="Search Demo"
             />

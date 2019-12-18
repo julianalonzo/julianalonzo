@@ -84,7 +84,7 @@ export default function KaagapAI() {
               trends.
             </p>
             <img
-              className="border border-gray-300 rounded-lg mb-8"
+              className="shadow-md rounded-lg mb-8"
               src="/static/kaagapai/documentAnalysis.gif"
               alt="Document Analysis Demo"
             />
@@ -108,7 +108,7 @@ export default function KaagapAI() {
               apperances of the word across analyzed documents.
             </p>
             <img
-              className="border border-gray-300 rounded-lg mb-8"
+              className="shadow-md rounded-lg mb-8"
               src="/static/kaagapai/keywords.png"
               alt="Keywords"
             />
@@ -119,7 +119,7 @@ export default function KaagapAI() {
               words that were found in the documents.
             </p>
             <img
-              className="border border-gray-300 rounded-lg mb-8"
+              className="shadow-md rounded-lg mb-8"
               src="/static/kaagapai/categories.png"
               alt="Categories"
             />
@@ -130,7 +130,7 @@ export default function KaagapAI() {
               relevance, and appearances across analyzed documents.
             </p>
             <img
-              className="border border-gray-300 rounded-lg mb-8"
+              className="shadow-md rounded-lg mb-8"
               src="/static/kaagapai/entities.png"
               alt="Entities"
             />
@@ -142,7 +142,7 @@ export default function KaagapAI() {
               to show the trend of emotions across selected sessions.
             </p>
             <img
-              className="border border-gray-300 rounded-lg mb-8"
+              className="shadow-md rounded-lg mb-8"
               src="/static/kaagapai/emotions.png"
               alt="Emotions"
             />
@@ -154,7 +154,7 @@ export default function KaagapAI() {
               sessions.
             </p>
             <img
-              className="border border-gray-300 rounded-lg mb-8"
+              className="shadow-md rounded-lg mb-8"
               src="/static/kaagapai/sentiment.png"
               alt="Sentiment"
             />
@@ -164,7 +164,7 @@ export default function KaagapAI() {
               Document Preprocessing
             </h3>
             <img
-              className="border border-gray-300 rounded-lg mb-8"
+              className="shadow-md rounded-lg mb-8"
               src="/static/kaagapai/systemArchitecture.png"
               alt="System Architecture"
             />
@@ -178,7 +178,7 @@ export default function KaagapAI() {
               English using the Cloud Translation API.
             </p>
             <img
-              className="border border-gray-300 rounded-lg mb-8"
+              className="shadow-md rounded-lg mb-8"
               src="/static/kaagapai/documentPreprocessing.gif"
               alt="Document Preprocessing"
             />
@@ -195,7 +195,7 @@ export default function KaagapAI() {
               clients, sessions, and documents).
             </p>
             <img
-              className="border border-gray-300 rounded-lg mb-8"
+              className="shadow-md rounded-lg mb-8"
               src="/static/kaagapai/entityManagement.gif"
               alt="Entity Management"
             />
