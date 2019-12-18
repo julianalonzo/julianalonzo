@@ -22,9 +22,9 @@ export default function ProjectCover({
           />
         </svg>
       </div>
-      <div className="relative z-10 pb-1/2 w-11/12 mx-auto shadow-xl rounded-lg -mt-1/6 sm:w-10/12 sm:pb-5/12 md:w-9/12 md:pb-2/5 lg:w-3/5 lg:pb:1/3 xl:w-1/2 xl:pb-1/4">
+      <div className="relative z-10 container mx-auto -mt-24 w-11/12 sm:4/5 md:w-3/4 md:-mt-48 lg:w-3/5 lg:-mt-56 xl:w-1/2 xl:-mt-1/6">
         <img
-          className="absolute h-full w-full object-cover rounded-lg"
+          className="rounded-lg mx-auto shadow-xl w-full"
           src={mainProjectImagePath}
         />
       </div>
