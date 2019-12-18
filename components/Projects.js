@@ -6,13 +6,13 @@ export default function Projects() {
       id: 'kaagapAI',
       title: 'kaagapAI',
       description: 'An automated psychotherapy text analysis tool',
-      logoPath: '/static/kaagapai-logo.svg'
+      logoPath: '/static/kaagapai/kaagapai-logo.svg'
     },
     {
       id: 'eis',
       title: 'Equipment Inventory System (EIS)',
       description: 'An inventory system for IT equipment',
-      logoPath: '/static/eis-logo.svg'
+      logoPath: '/static/eis/eis-logo.svg'
     }
   ];
 
