@@ -12,12 +12,12 @@ export default function EIS() {
       <Navbar />
       <ProjectCover
         mainColor="indigo"
-        coverPhotoPath="/static/eis-bg.svg"
-        mainProjectImagePath="/static/eis-demo.gif"
+        coverPhotoPath="/static/eis/eis-bg.svg"
+        mainProjectImagePath="/static/eis/itemManagement.gif"
       />
-      <div className="container mx-auto mt-12 mb-64 w-11/12 sm:4/5 md:w-3/4 lg:w-3/5 xl:w-1/2">
+      <div className="container mx-auto my-12 w-11/12 sm:4/5 md:w-3/4 lg:w-3/5 xl:w-1/2">
         <ProjectTitle
-          logoPath="/static/eis-logo.svg"
+          logoPath="/static/eis/eis-logo.svg"
           title="EIS"
           websiteUrl="https://equipment-inventory-system.herokuapp.com"
           githubUrl="https://github.com/julianalonzo/eis"
