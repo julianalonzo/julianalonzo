@@ -9,7 +9,7 @@ export default function Welcome() {
       <div className="container mx-auto text-center pt-24 px-4 md:text-left md:px-12">
         <ScrollAnimation animateIn="fadeInDown" offset={0}>
           <h1 className="text-4xl font-extrabold text-green-900 font-serif md:text-6xl">
-            I'm Julian Aubrey
+            I'm Julian Alonzo
           </h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInDown" delay={500} offset={0}>
