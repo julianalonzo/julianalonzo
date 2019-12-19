@@ -5,8 +5,24 @@ import 'animate.css/animate.min.css';
 export default function Header() {
   return (
     <Head>
-      <title>Julian Alonzo</title>
+      <title>Julian Alonzo - Web Developer</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta name="description" content="Developer portfolio of Julian Alonzo" />
+      <meta
+        name="keywords"
+        content="julian, alonzo, julian alonzo, julian aubrey, aubrey, developer, portfolio, web developer, kaagapai, eis, freelance frontend, backend, fullstack, full stack"
+      />
+      <meta name="robots" content="index, follow" />
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta
+        name="msapplication-TileImage"
+        content="/static/favicon/ms-icon-144x144.png"
+      />
+      <meta name="theme-color" content="#ffffff" />
+      <link
+        href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Playfair+Display:400,700,900&display=swap"
+        rel="stylesheet"
+      />
       <link
         rel="apple-touch-icon"
         sizes="57x57"
@@ -77,16 +93,6 @@ export default function Header() {
         href="/static/favicon/favicon-16x16.png"
       />
       <link rel="manifest" href="/static/favicon/manifest.json" />
-      <meta name="msapplication-TileColor" content="#ffffff" />
-      <meta
-        name="msapplication-TileImage"
-        content="/static/favicon/ms-icon-144x144.png"
-      />
-      <meta name="theme-color" content="#ffffff" />
-      <link
-        href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Playfair+Display:400,700,900&display=swap"
-        rel="stylesheet"
-      />
     </Head>
   );
 }
