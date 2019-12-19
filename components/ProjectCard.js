@@ -1,14 +1,8 @@
 import Link from 'next/link';
 
-import ScrollAnimation from 'react-animate-on-scroll';
-
 export default function ProjectCard({ id, title, description, logoPath }) {
   return (
-    <ScrollAnimation
-      animateIn="fadeIn"
-      animateOnce
-      className="flex relative m-6 w-3/4 sm:w-1/3 lg:w-1/4 lg:m-6"
-    >
+    <div className="flex relative m-6 w-3/4 sm:w-1/3 lg:w-1/4 lg:m-6">
       <div className="p-6 pb-8 shadow rounded-lg bg-white text-center w-full">
         <img className="w-12 m-auto" src={logoPath} alt={title} />
         <div className="mt-2">
@@ -26,6 +20,6 @@ export default function ProjectCard({ id, title, description, logoPath }) {
           </a>
         </Link>
       </div>
-    </ScrollAnimation>
+    </div>
   );
 }

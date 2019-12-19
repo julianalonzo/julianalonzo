@@ -34,11 +34,13 @@ export default function Projects() {
             </h2>
           </ScrollAnimation>
         </div>
-        <div className="flex flex-wrap justify-center">
-          {projects.map(project => (
-            <ProjectCard key={project.id} {...project} />
-          ))}
-        </div>
+        <ScrollAnimation animateIn="fadeInUp" animateOnce>
+          <div className="flex flex-wrap justify-center">
+            {projects.map(project => (
+              <ProjectCard key={project.id} {...project} />
+            ))}
+          </div>
+        </ScrollAnimation>
       </div>
     </div>
   );
