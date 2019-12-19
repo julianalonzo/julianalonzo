@@ -31,6 +31,7 @@ export default function ProjectCover({
           <img
             className="rounded-lg mx-auto shadow-xl w-full"
             src={mainProjectImagePath}
+            alt="Project Demo"
           />
         </div>
       </ScrollAnimation>

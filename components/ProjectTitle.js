@@ -7,7 +7,7 @@ export default function ProjectTitle({
   return (
     <div className="mb-8 md:inline-flex items-center">
       <div className="flex items-center mr-4">
-        <img className="w-10 mr-4" src={logoPath} />
+        <img className="w-10 mr-4" src={logoPath} alt={title} />
         <h1 className="text-4xl font-sans font-bold mb-2">{title}</h1>
       </div>
       <a href={websiteUrl} target="_blank" className="focus:outline-none">

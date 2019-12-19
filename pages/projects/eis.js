@@ -34,7 +34,7 @@ export default function EIS() {
 
   return (
     <div className="bg-gray-100">
-      <Header />
+      <Header title="Julian Alonzo - Equipment Inventory System (EIS)" />
       <Navbar />
       <ProjectCover
         mainColor="indigo"

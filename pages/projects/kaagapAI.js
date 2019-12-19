@@ -37,7 +37,7 @@ export default function KaagapAI() {
 
   return (
     <div className="bg-gray-100">
-      <Header />
+      <Header title="Julian Alonzo - kaagapAI" />
       <Navbar />
       <ProjectCover
         mainColor="yellow"

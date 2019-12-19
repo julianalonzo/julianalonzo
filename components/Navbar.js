@@ -14,7 +14,7 @@ export default function Navbar() {
               className="focus:outline-none focus:bg-dark-fade rounded-lg block"
               onClick={() => setIsNavMenuOpen(false)}
             >
-              <img src="/static/logo.svg" className="h-8" />
+              <img src="/static/logo.svg" className="h-8" alt="Julian Alonzo" />
             </a>
           </Link>
           <div className="hidden md:block">

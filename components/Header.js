@@ -2,15 +2,15 @@ import Head from 'next/head';
 
 import 'animate.css/animate.min.css';
 
-export default function Header() {
+export default function Header({ title }) {
   return (
     <Head>
-      <title>Julian Alonzo - Web Developer</title>
+      <title>{title}</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="description" content="Developer portfolio of Julian Alonzo" />
       <meta
         name="keywords"
-        content="julian, alonzo, julian alonzo, julian aubrey, aubrey, developer, portfolio, web developer, kaagapai, eis, freelance frontend, backend, fullstack, full stack"
+        content="julian alonzo, julian aubrey, developer, portfolio, web developer, kaagapai, eis, freelance, frontend, backend, fullstack, full stack, calgary, canada"
       />
       <meta name="robots" content="index, follow" />
       <meta name="msapplication-TileColor" content="#ffffff" />
