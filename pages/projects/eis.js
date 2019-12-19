@@ -41,7 +41,7 @@ export default function EIS() {
         coverPhotoPath="/static/eis/eis-bg.svg"
         mainProjectImagePath="/static/eis/itemManagement.gif"
       />
-      <ScrollAnimation animateIn="fadeIn" animateOnce delay={1000} offset={0}>
+      <ScrollAnimation animateIn="fadeIn" delay={1000} offset={0}>
         <div className="container mx-auto my-12 w-11/12 sm:4/5 md:w-3/4 lg:w-3/5 xl:w-1/2">
           <ProjectTitle
             logoPath="/static/eis/eis-logo.svg"

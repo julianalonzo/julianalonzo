@@ -7,7 +7,7 @@ export default function ProjectCover({
 }) {
   return (
     <section>
-      <ScrollAnimation animateIn="fadeInDown" offset={0} delay={0} animateOnce>
+      <ScrollAnimation animateIn="fadeInDown" offset={0} delay={0}>
         <div
           className={`h-screen-1/4 bg-${mainColor}-200 bg-cover bg-center md:h-screen-1/2 md:bg-fixed relative`}
           style={{
@@ -26,12 +26,7 @@ export default function ProjectCover({
           </svg>
         </div>
       </ScrollAnimation>
-      <ScrollAnimation
-        animateIn="fadeInDown"
-        offset={0}
-        delay={250}
-        animateOnce
-      >
+      <ScrollAnimation animateIn="fadeInDown" offset={0} delay={250}>
         <div className="relative z-10 container mx-auto -mt-1/6 w-11/12 sm:4/5 md:w-3/4 lg:w-3/5 xl:w-1/2">
           <img
             className="rounded-lg mx-auto shadow-xl w-full"

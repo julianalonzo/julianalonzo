@@ -22,19 +22,19 @@ export default function Projects() {
     <div className="bg-gray-100 mt-8 mb-24 md:mb-40">
       <div className="container mx-auto">
         <div className="text-center mb-4 md:mb-12">
-          <ScrollAnimation animateIn="fadeInDown" animateOnce offset={0}>
+          <ScrollAnimation animateIn="fadeInDown" offset={0}>
             <img
               src="/static/hammers.svg"
               className="w-8 inline mb-2 md:w-10"
             />
           </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInDown" animateOnce>
+          <ScrollAnimation animateIn="fadeInDown">
             <h2 className="text-xl font-sans font-bold text-green-900 uppercase tracking-wider md:text-2xl">
               Projects
             </h2>
           </ScrollAnimation>
         </div>
-        <ScrollAnimation animateIn="fadeInUp" animateOnce>
+        <ScrollAnimation animateIn="fadeInUp">
           <div className="flex flex-wrap justify-center">
             {projects.map(project => (
               <ProjectCard key={project.id} {...project} />

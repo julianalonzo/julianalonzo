@@ -16,19 +16,19 @@ export default function Footer() {
       <div className="bg-green-300 pb-8 -mt-1">
         <div className="container mx-auto px-4 pt-4 text-center md:px-12 md:text-left">
           <div className="mb-16">
-            <ScrollAnimation animateIn="fadeInUp" animateOnce>
+            <ScrollAnimation animateIn="fadeInUp">
               <h1 className="text-green-900 text-3xl font-sans font-extrabold md:text-4xl mb-4">
                 Let's work together
               </h1>
             </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeInUp" delay={250} animateOnce>
+            <ScrollAnimation animateIn="fadeInUp" delay={250}>
               <p className="text-green-900 font-sans mb-6 leading-loose lg:w-1/2">
                 If you have a job opportunity for me, a project you want to
                 start, or just want to say hi, then feel free to reach out to
                 me.
               </p>
             </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeInUp" delay={500} animateOnce>
+            <ScrollAnimation animateIn="fadeInUp" delay={500}>
               <a
                 href="mailto:julianaubreya@gmail.com"
                 target="_blank"
@@ -46,12 +46,7 @@ export default function Footer() {
             </ScrollAnimation>
           </div>
           <div className="w-full text-center md:text-left">
-            <ScrollAnimation
-              animateIn="fadeInUp"
-              offset={0}
-              animateOnce
-              delay={700}
-            >
+            <ScrollAnimation animateIn="fadeInUp" offset={0} delay={700}>
               <ul className="py-4 inline-flex items-center">
                 <li className="mr-24 text-green-900 font-sans">
                   <a
