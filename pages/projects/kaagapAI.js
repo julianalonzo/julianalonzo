@@ -5,6 +5,7 @@ import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import ProjectCover from '../../components/ProjectCover';
 import ProjectTitle from '../../components/ProjectTitle';
+import Footer from '../../components/Footer';
 
 export default function KaagapAI() {
   const technologies = [
@@ -212,6 +213,7 @@ export default function KaagapAI() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

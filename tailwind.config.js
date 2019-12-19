@@ -2,29 +2,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: [
-          'Lato',
-          '-apple-system',
-          'BlinkMacSystemFont',
-          '"Segoe UI"',
-          'Roboto',
-          '"Helvetica Neue"',
-          'Arial',
-          '"Noto Sans"',
-          'sans-serif',
-          '"Apple Color Emoji"',
-          '"Segoe UI Emoji"',
-          '"Segoe UI Symbol"',
-          '"Noto Color Emoji"'
-        ],
-        serif: [
-          '"Playfair Display"',
-          'Georgia',
-          'Cambria',
-          '"Times New Roman"',
-          'Times',
-          'serif'
-        ]
+        sans: ['Lato'],
+        serif: ['"Playfair Display"']
       },
       spacing: {
         '1/2': '50%',
@@ -72,6 +51,15 @@ module.exports = {
           height: '25vh'
         },
         '.h-screen-3\\/4': {
+          height: '75vh'
+        },
+        '.min-h-screen-1\\/2': {
+          height: '50vh'
+        },
+        '.min-h-screen-1\\/4': {
+          height: '25vh'
+        },
+        '.min-h-screen-3\\/4': {
           height: '75vh'
         },
         '.top-1\\/2': {

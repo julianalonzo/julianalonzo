@@ -5,6 +5,7 @@ import Navbar from '../../components/Navbar';
 import ProjectCover from '../../components/ProjectCover';
 import ProjectTitle from '../../components/ProjectTitle';
 import Chips from '../../components/Chips';
+import Footer from '../../components/Footer';
 
 export default function EIS() {
   const technologies = [
@@ -140,6 +141,7 @@ export default function EIS() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

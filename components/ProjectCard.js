@@ -15,7 +15,7 @@ export default function ProjectCard({ id, title, description, logoPath }) {
         style={{ marginLeft: '-60px' }}
       >
         <Link href={`/projects/${id}`}>
-          <button className="py-2 px-4 bg-orange-400 font-sans text-xs tracking-widest text-orange-900 rounded-full outline-none focus:outline-none focus:outline-orange-300 shadow-md hover:shadow-lg hover:bg-orange-500 uppercase">
+          <button className="py-2 px-4 bg-yellow-400 font-sans text-xs tracking-widest text-yellow-900 rounded-full focus:outline-none shadow-md hover:shadow-lg hover:bg-yellow-500 focus:shadow-lg focus:bg-yellow-500 uppercase">
             Learn More
           </button>
         </Link>

@@ -4,18 +4,16 @@ export default function Welcome() {
       className="h-screen-3/4 bg-cover bg-bottom relative pb-4 md:h-screen md:bg-fixed"
       style={{ backgroundImage: `url("/static/flat-mountains.svg")` }}
     >
-      <div className="container mx-auto">
-        <div className="text-center pt-24 px-4 md:text-left md:px-12">
-          <h1 className="text-4xl font-extrabold text-green-900 font-serif md:text-6xl">
-            I'm Julian Aubrey
-          </h1>
-          <p className="text-lg text-yellow-900 font-sans md:text-3xl md:-mt-2 md:font-light">
-            a web developer
-          </p>
-          <button className="mt-4 py-2 px-4 bg-green-400 font-sans text-green-900 uppercase text-sm tracking-widest rounded-full outline-none shadow-md hover:shadow-lg hover:bg-green-500 focus:outline-none focus:outline-green-500 md:inline">
-            View Projects
-          </button>
-        </div>
+      <div className="container mx-auto text-center pt-24 px-4 md:text-left md:px-12">
+        <h1 className="text-4xl font-extrabold text-green-900 font-serif md:text-6xl">
+          I'm Julian Aubrey
+        </h1>
+        <p className="text-lg text-yellow-900 font-sans mb-6 md:text-3xl md:-mt-2 md:font-light">
+          a web developer.
+        </p>
+        <a className="py-2 px-4 bg-yellow-400 font-sans text-yellow-900 uppercase text-sm tracking-widest rounded-full outline-none shadow-md hover:shadow-lg hover:bg-yellow-500 focus:outline-none focus:bg-yellow-500">
+          View Projects
+        </a>
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
