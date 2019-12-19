@@ -35,8 +35,8 @@ export default function Projects() {
           </ScrollAnimation>
         </div>
         <div className="flex flex-wrap justify-center">
-          {projects.map((project, index) => (
-            <ProjectCard key={project.id} {...project} index={index} />
+          {projects.map(project => (
+            <ProjectCard key={project.id} {...project} />
           ))}
         </div>
       </div>

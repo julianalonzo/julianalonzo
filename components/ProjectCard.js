@@ -2,19 +2,12 @@ import Link from 'next/link';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
-export default function ProjectCard({
-  id,
-  title,
-  description,
-  logoPath,
-  index
-}) {
+export default function ProjectCard({ id, title, description, logoPath }) {
   return (
     <ScrollAnimation
       animateIn="fadeIn"
       animateOnce
       offset={100}
-      delay={(index + 1) * 100}
       className="flex relative m-6 w-3/4 sm:w-1/3 lg:w-1/4 lg:m-6"
     >
       <div className="p-6 pb-8 shadow rounded-lg bg-white text-center w-full">
