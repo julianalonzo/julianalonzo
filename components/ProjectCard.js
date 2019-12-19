@@ -13,7 +13,7 @@ export default function ProjectCard({
     <ScrollAnimation
       animateIn="fadeIn"
       animateOnce
-      offset={50}
+      offset={100}
       delay={(index + 1) * 100}
       className="flex relative m-6 w-3/4 sm:w-1/3 lg:w-1/4 lg:m-6"
     >
