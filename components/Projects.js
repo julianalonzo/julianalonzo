@@ -28,7 +28,7 @@ export default function Projects() {
               className="w-8 inline mb-2 md:w-10"
             />
           </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInDown" animateOnce offset={100}>
+          <ScrollAnimation animateIn="fadeInDown" animateOnce>
             <h2 className="text-xl font-sans font-bold text-green-900 uppercase tracking-wider md:text-2xl">
               Projects
             </h2>
