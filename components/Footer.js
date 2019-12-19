@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer>
+    <footer id="contacts">
       <svg
         className="fill-current text-green-300"
         xmlns="http://www.w3.org/2000/svg"

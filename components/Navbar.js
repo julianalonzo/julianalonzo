@@ -1,29 +1,35 @@
+import { useState } from 'react';
+
+import Link from 'next/link';
+
 export default function Navbar() {
+  const [isNavMenuOpen, setIsNavMenuOpen] = useState(false);
+
   return (
-    <nav className="w-full py-2 fixed frosted-glass z-50">
+    <nav className="w-full py-2 fixed frosted-glass z-50 shadow-lg">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          <a
-            href="/"
-            className="focus:outline-none focus:bg-dark-fade rounded-lg block"
-          >
-            <img src="/static/logo.svg" className="h-8" />
-          </a>
+          <Link href="/">
+            <a className="focus:outline-none focus:bg-dark-fade rounded-lg block">
+              <img src="/static/logo.svg" className="h-8" />
+            </a>
+          </Link>
           <div className="hidden md:block">
-            <a
-              href="/#projects"
-              className="px-3 py-2 rounded-lg text-gray-700 mr-8 text-sm font-sans focus:outline-none focus:bg-dark-fade hover:bg-dark-fade"
-            >
-              Projects
-            </a>
-            <a
-              href="/"
-              className="px-3 py-2 rounded-lg text-gray-700 text-sm font-sans focus:outline-none focus:bg-dark-fade hover:bg-dark-fade"
-            >
-              Contact
-            </a>
+            <Link href="/#projects">
+              <a className="px-3 py-2 rounded-lg text-gray-700 mr-8 text-sm font-sans focus:outline-none focus:bg-dark-fade hover:bg-dark-fade">
+                Projects
+              </a>
+            </Link>
+            <Link href="#contacts">
+              <a className="px-3 py-2 rounded-lg text-gray-700 text-sm font-sans focus:outline-none focus:bg-dark-fade hover:bg-dark-fade">
+                Contact
+              </a>
+            </Link>
           </div>
-          <button className="md:hidden rounded-lg focus:outline-none focus:bg-dark-fade">
+          <button
+            className="md:hidden rounded-lg focus:outline-none focus:bg-dark-fade"
+            onClick={() => setIsNavMenuOpen(!isNavMenuOpen)}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -33,6 +39,26 @@ export default function Navbar() {
             </svg>
           </button>
         </div>
+        {isNavMenuOpen ? (
+          <div className="pt-8 pb-2 md:hidden">
+            <Link href="/#projects">
+              <a
+                className="block px-3 py-2 mb-2 rounded-lg text-gray-700 text-sm font-sans focus:outline-none focus:bg-dark-fade hover:bg-dark-fade"
+                onClick={() => setIsNavMenuOpen(false)}
+              >
+                Projects
+              </a>
+            </Link>
+            <Link href="#contacts">
+              <a
+                className="block px-3 py-2 rounded-lg text-gray-700 text-sm font-sans focus:outline-none focus:bg-dark-fade hover:bg-dark-fade"
+                onClick={() => setIsNavMenuOpen(false)}
+              >
+                Contact
+              </a>
+            </Link>
+          </div>
+        ) : null}
       </div>
     </nav>
   );
