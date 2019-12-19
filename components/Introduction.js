@@ -1,6 +1,6 @@
 import ScrollAnimation from 'react-animate-on-scroll';
 
-export default function Welcome() {
+export default function Introduction() {
   return (
     <div
       className="h-screen-3/4 h-full bg-cover bg-bottom relative pb-4 md:h-screen md:bg-fixed"
