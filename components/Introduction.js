@@ -7,17 +7,27 @@ export default function Welcome() {
       style={{ backgroundImage: `url("/static/flat-mountains.svg")` }}
     >
       <div className="container mx-auto text-center pt-24 px-4 md:text-left md:px-12">
-        <ScrollAnimation animateIn="fadeInDown" animateOnce>
+        <ScrollAnimation animateIn="fadeInDown" animateOnce offset={0}>
           <h1 className="text-4xl font-extrabold text-green-900 font-serif md:text-6xl">
             I'm Julian Aubrey
           </h1>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInDown" delay={500} animateOnce>
+        <ScrollAnimation
+          animateIn="fadeInDown"
+          delay={500}
+          animateOnce
+          offset={0}
+        >
           <p className="text-lg text-yellow-900 font-sans mb-6 md:text-3xl md:-mt-2 md:font-light">
             a web developer.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInDown" delay={1000} animateOnce>
+        <ScrollAnimation
+          animateIn="fadeInDown"
+          delay={1000}
+          animateOnce
+          offset={0}
+        >
           <a
             href="#projects"
             className="py-2 px-4 bg-yellow-400 font-sans text-yellow-900 uppercase text-sm tracking-widest rounded-full outline-none shadow-md hover:shadow-lg hover:bg-yellow-500 focus:outline-none focus:bg-yellow-500"
