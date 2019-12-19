@@ -46,7 +46,7 @@ export default function Footer() {
             </ScrollAnimation>
           </div>
           <div className="w-full text-center md:text-left">
-            <ScrollAnimation animateIn="fadeInUp" offset={0} delay={700}>
+            <ScrollAnimation animateIn="fadeInUp" offset={50} delay={700}>
               <ul className="py-4 inline-flex items-center">
                 <li className="mr-24 text-green-900 font-sans">
                   <a
