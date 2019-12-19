@@ -11,7 +11,7 @@ export default function Footer() {
           d="M0,160L80,154.7C160,149,320,139,480,117.3C640,96,800,64,960,85.3C1120,107,1280,181,1360,218.7L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
         />
       </svg>
-      <div className="bg-green-300 pb-8">
+      <div className="bg-green-300 pb-8 -mt-1">
         <div className="container mx-auto px-4 pt-4 text-center md:px-12 md:text-left">
           <div className="mb-16">
             <h1 className="text-green-900 text-3xl font-sans font-extrabold md:text-4xl mb-4">

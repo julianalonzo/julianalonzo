@@ -11,7 +11,7 @@ export default function ProjectTitle({
         <h1 className="text-4xl font-sans font-bold mb-2">{title}</h1>
       </div>
       <a href={websiteUrl} target="_blank" className="focus:outline-none">
-        <button className="py-2 px-4 mr-2 uppercase inline-flex items-center bg-green-400 font-sans text-xs tracking-widest text-green-900 rounded-full outline-none focus:outline-none focus:outline-green-500 shadow-md hover:shadow-lg hover:bg-green-500">
+        <button className="py-2 px-4 mr-2 uppercase inline-flex items-center bg-yellow-400 font-sans text-xs tracking-widest text-yellow-900 rounded-full outline-none focus:outline-none shadow-md hover:shadow-lg hover:bg-yellow-500 focus:shadow-lg focus:bg-yellow-500">
           <svg
             className="fill-current w-4 h-4 mr-1"
             xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ export default function ProjectTitle({
         </button>
       </a>
       <a href={githubUrl} target="_blank" className="focus:outline-none">
-        <button className="py-2 px-4 inline-flex items-center bg-orange-400 font-sans text-xs tracking-widest text-orange-900 rounded-full outline-none focus:outline-none focus:outline-orange-300 shadow-md hover:shadow-lg hover:bg-orange-500 uppercase">
+        <button className="py-2 px-4 inline-flex items-center bg-green-400 font-sans text-xs tracking-widest text-green-900 rounded-full outline-none focus:outline-none shadow-md hover:shadow-lg hover:bg-green-500 focus:shadow-lg focus:bg-green-500 uppercase">
           <svg
             className="fill-current w-4 h-4 mr-1"
             xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 export default function Welcome() {
   return (
     <div
-      className="h-screen-3/4 bg-cover bg-bottom relative pb-4 md:h-screen md:bg-fixed"
+      className="h-screen-3/4 h-full bg-cover bg-bottom relative pb-4 md:h-screen md:bg-fixed"
       style={{ backgroundImage: `url("/static/flat-mountains.svg")` }}
     >
       <div className="container mx-auto text-center pt-24 px-4 md:text-left md:px-12">
@@ -11,7 +11,10 @@ export default function Welcome() {
         <p className="text-lg text-yellow-900 font-sans mb-6 md:text-3xl md:-mt-2 md:font-light">
           a web developer.
         </p>
-        <a className="py-2 px-4 bg-yellow-400 font-sans text-yellow-900 uppercase text-sm tracking-widest rounded-full outline-none shadow-md hover:shadow-lg hover:bg-yellow-500 focus:outline-none focus:bg-yellow-500">
+        <a
+          href="#projects"
+          className="py-2 px-4 bg-yellow-400 font-sans text-yellow-900 uppercase text-sm tracking-widest rounded-full outline-none shadow-md hover:shadow-lg hover:bg-yellow-500 focus:outline-none focus:bg-yellow-500"
+        >
           View Projects
         </a>
       </div>
@@ -19,6 +22,7 @@ export default function Welcome() {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 260"
         className="absolute bottom-0 fill-current text-gray-100"
+        id="projects"
       >
         <path
           fillOpacity="1"

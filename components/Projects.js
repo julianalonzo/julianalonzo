@@ -17,11 +17,11 @@ export default function Projects() {
   ];
 
   return (
-    <div className="bg-gray-100 mb-24 md:mb-40">
-      <div className="container mx-auto z-10">
-        <div className="text-center mb-4">
-          <img src="/static/hammers.svg" className="m-auto w-6" />
-          <h2 className="text-xl font-bold font-sans text-yellow-900 uppercase tracking-widest uppercase">
+    <div className="bg-gray-100 mt-8 mb-24 md:mb-40">
+      <div className="container mx-auto">
+        <div className="text-center mb-4 md:mb-12">
+          <img src="/static/hammers.svg" className="w-8 inline mb-2 md:w-10" />
+          <h2 className="text-xl font-sans font-bold text-green-900 uppercase tracking-wider md:text-2xl">
             Projects
           </h2>
         </div>
