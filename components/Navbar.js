@@ -10,7 +10,10 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <Link href="/">
-            <a className="focus:outline-none focus:bg-dark-fade rounded-lg block">
+            <a
+              className="focus:outline-none focus:bg-dark-fade rounded-lg block"
+              onClick={() => setIsNavMenuOpen(false)}
+            >
               <img src="/static/logo.svg" className="h-8" />
             </a>
           </Link>
