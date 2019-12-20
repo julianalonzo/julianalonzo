@@ -6,28 +6,22 @@ export default function Introduction() {
       className="h-screen-3/4 h-full bg-green-200 bg-cover bg-bottom relative pb-4 md:h-screen md:bg-fixed"
       style={{ backgroundImage: `url("/static/flat-mountains.svg")` }}
     >
-      <ScrollAnimation animateIn="fadeIn" offset={0}>
-        <div className="container mx-auto text-center pt-24 px-4 md:text-left md:px-12">
-          <ScrollAnimation animateIn="fadeInDown" offset={0}>
-            <h1 className="text-4xl font-extrabold text-green-900 font-serif md:text-6xl">
-              I'm Julian Alonzo
-            </h1>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInDown" delay={500} offset={0}>
-            <p className="text-lg text-yellow-900 font-sans mb-6 md:text-3xl md:-mt-2 md:font-light">
-              a web developer.
-            </p>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInDown" delay={1000} offset={0}>
-            <a
-              href="#projects"
-              className="py-2 px-4 bg-yellow-400 font-sans text-yellow-900 uppercase text-sm tracking-widest rounded-full outline-none shadow-md hover:shadow-lg hover:bg-yellow-500 focus:outline-none focus:bg-yellow-500"
-            >
-              View Projects
-            </a>
-          </ScrollAnimation>
+      <div className="container mx-auto text-center pt-24 px-4 md:text-left md:px-12">
+        <h1 className="animated fadeInDown text-4xl font-extrabold text-green-900 font-serif md:text-6xl">
+          I'm Julian Alonzo
+        </h1>
+        <p className="animated fadeInDown text-lg text-yellow-900 font-sans mb-6 md:text-3xl md:-mt-2 md:font-light">
+          a web developer.
+        </p>
+        <div className="animated fadeInDown">
+          <a
+            href="#projects"
+            className="py-2 px-4 bg-yellow-400 font-sans text-yellow-900 uppercase text-sm tracking-widest rounded-full outline-none shadow-md hover:shadow-lg hover:bg-yellow-500 focus:outline-none focus:bg-yellow-500"
+          >
+            View Projects
+          </a>
         </div>
-      </ScrollAnimation>
+      </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 260"
