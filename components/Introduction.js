@@ -9,7 +9,7 @@ export default function Introduction() {
           I'm Julian Alonzo
         </h1>
         <p className="animated fadeInDown text-lg text-yellow-900 font-sans mb-6 md:text-3xl md:-mt-2 md:font-light">
-          a web developer.
+          a full stack developer.
         </p>
         <div className="animated fadeInDown">
           <a
