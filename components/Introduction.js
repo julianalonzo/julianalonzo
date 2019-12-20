@@ -1,5 +1,3 @@
-import ScrollAnimation from 'react-animate-on-scroll';
-
 export default function Introduction() {
   return (
     <div
@@ -7,26 +5,20 @@ export default function Introduction() {
       style={{ backgroundImage: `url("/static/flat-mountains.svg")` }}
     >
       <div className="container mx-auto text-center pt-24 px-4 md:text-left md:px-12">
-        <ScrollAnimation animateIn="fadeInDown" offset={0}>
-          <h1 className="animated fadeInDown text-4xl font-extrabold text-green-900 font-serif md:text-6xl">
-            I'm Julian Alonzo
-          </h1>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInDown" offset={0} delay={250}>
-          <p className="animated fadeInDown text-lg text-yellow-900 font-sans mb-6 md:text-3xl md:-mt-2 md:font-light">
-            a web developer.
-          </p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInDown" offset={0} delay={500}>
-          <div className="animated fadeInDown">
-            <a
-              href="#projects"
-              className="py-2 px-4 bg-yellow-400 font-sans text-yellow-900 uppercase text-sm tracking-widest rounded-full outline-none shadow-md hover:shadow-lg hover:bg-yellow-500 focus:outline-none focus:bg-yellow-500"
-            >
-              View Projects
-            </a>
-          </div>
-        </ScrollAnimation>
+        <h1 className="animated fadeInDown text-4xl font-extrabold text-green-900 font-serif md:text-6xl">
+          I'm Julian Alonzo
+        </h1>
+        <p className="animated fadeInDown text-lg text-yellow-900 font-sans mb-6 md:text-3xl md:-mt-2 md:font-light">
+          a web developer.
+        </p>
+        <div className="animated fadeInDown">
+          <a
+            href="#projects"
+            className="py-2 px-4 bg-yellow-400 font-sans text-yellow-900 uppercase text-sm tracking-widest rounded-full outline-none shadow-md hover:shadow-lg hover:bg-yellow-500 focus:outline-none focus:bg-yellow-500"
+          >
+            View Projects
+          </a>
+        </div>
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
