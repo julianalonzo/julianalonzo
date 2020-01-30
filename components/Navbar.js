@@ -32,13 +32,6 @@ export default function Navbar() {
                 Contact
               </a>
             </Link>
-            <a
-              href="/static/Julian-Alonzo-Resume.pdf"
-              target="_blank"
-              className="px-3 py-2 rounded-lg text-gray-700 text-sm font-sans focus:outline-none focus:bg-dark-fade hover:bg-dark-fade"
-            >
-              Resume
-            </a>
           </div>
           <button
             className="md:hidden rounded-lg focus:outline-none focus:bg-dark-fade"
@@ -71,14 +64,6 @@ export default function Navbar() {
                 Contact
               </a>
             </Link>
-            <a
-              href="/static/Julian-Alonzo-Resume.pdf"
-              target="_blank"
-              className="block px-3 py-2 rounded-lg text-gray-700 font-sans focus:outline-none focus:bg-dark-fade hover:bg-dark-fade"
-              onClick={() => setIsNavMenuOpen(false)}
-            >
-              Resume
-            </a>
           </div>
         ) : null}
       </div>
